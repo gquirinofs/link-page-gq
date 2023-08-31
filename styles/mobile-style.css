@@ -67,33 +67,41 @@
         font-weight: 700;
         text-align: center;
     }
-    
+        
     main section{
         display: flex;
         flex-direction: column;
         gap: 18px;
     }
 
+    .links-title{
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        width: 220px;
+        justify-content: center;
+    }
+
     .links{
-        width: 280px;
-        height: 28px;
-        background: var(--main-blue);
-        border-radius: 10px;
-        text-align: center;
         text-decoration: none;
-        color: var(--main-black);
     }
 
     .boxes{
+        width: 280px;
+        height: 28px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 280px;
-        height: 28px;
+        background: var(--main-blue);
+        border-radius: 10px;
+        text-align: center;
+        text-justify: inter-word;
+        color: var(--main-black);
+        display: flex;
+        align-items: center;
     }
 
     .icons{
-        display: flex;
         height: 21px;
         align-items: center;
         justify-content: center;
@@ -105,6 +113,7 @@
     footer{
         display: flex;
         justify-content: center;
+        margin-bottom: 30px;
     }
 
     footer img{
