@@ -1,0 +1,115 @@
+:root{
+    --main-black: #0F1108;
+    --main-green: #337357;
+    --main-citrine: #BDBF09;
+    --main-blue: #CAD8DE;
+    --main-brown: #9A6D38;
+    --main-font: 'Grandstander';
+}
+
+@media all and (max-width: 420px){
+    
+    body{
+        background: var(--main-green);
+    }
+    
+    /* HEADER: PROFILE IMAGE */
+
+    #user-img{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+
+    #photo{
+        object-fit: cover;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 1px solid var(--main-brown) ;
+        box-shadow: 0 0 2px var(--main-black);
+    }
+
+    /* HEADER: TEXT */
+
+    #text{
+        text-align: center;
+    }
+
+    #text h1{
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    #text p{
+        font-size: 13px;
+        font-weight: 300;
+        color: var(--main-black);
+    }
+
+    /* MAIN */
+    
+    main{
+        margin-top: 24px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+    }
+
+    main h3{
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    main section{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .links{
+        width: 280px;
+        height: 28px;
+        background: var(--main-blue);
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--main-black);
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 280px;
+        height: 28px;
+    }
+
+    .icons{
+        display: flex;
+        height: 21px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 13px;
+    }
+
+    /* FOOTER */
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer img{
+        width: 115px;
+        height: 48px;
+    }
+
+}
